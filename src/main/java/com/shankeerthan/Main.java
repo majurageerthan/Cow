@@ -29,6 +29,8 @@ import javafx.scene.text.Font;
 import javafx.stage.*;
 import javafx.util.Duration;
 
+import java.net.URI;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -151,6 +153,7 @@ public class Main extends Application {
         Image zoomIcon = new Image("file:" + "NewIcons/zoom.png");
         zoomButton.setGraphic(new ImageView(zoomIcon));
         handleZoomButton(zoomButton);
+        zoomButton.setTooltip(new Tooltip("Zoom and Pan"));
 
 
         //Rotate left button
@@ -173,18 +176,20 @@ public class Main extends Application {
         handleShowBarButton(showSidebarButton, vBox);
         Image showSidebarIcon = new Image("file:" + "NewIcons/show_sidebar.png");
         showSidebarButton.setGraphic(new ImageView(showSidebarIcon));
-
+        showSidebarButton.setTooltip(new Tooltip("Show Side bar"));
 
         //Hide side bar button
         Button hideSidebarButton = new Button();
         handleHideBarButton(hideSidebarButton, vBox);
         Image hideSidebarImageIcon = new Image("file:" + "NewIcons/hide_sidebar.png");
         hideSidebarButton.setGraphic(new ImageView(hideSidebarImageIcon));
+        hideSidebarButton.setTooltip(new Tooltip("Hide Side bar"));
 
         //About us button
         Button aboutUsButton = new Button();
         Image aboutUsIcon = new Image("file:" + "NewIcons/about_us.png");
         aboutUsButton.setGraphic(new ImageView(aboutUsIcon));
+        aboutUsButton.setTooltip(new Tooltip("About us"));
         aboutUsButton.setOnMouseClicked(event -> {
             WebSite.open();
         });
@@ -566,7 +571,22 @@ public class Main extends Application {
             @Override
             public void handle(MouseEvent event) {
                 //System.out.println("Show");
-                SupportCodes.printProp();
+                try {
+                    FileChooser fileChooser = new FileChooser();
+
+                    File selectedFile = fileChooser.showOpenDialog(null);
+                    Metadata metadata = ImageMetadataReader.readMetadata(selectedFile);
+                    SupportCodes.saveProp(metadata);
+                    SupportCodes.printProp();
+
+                } catch (Exception e) {
+
+                }
+
+
+
+
+
             }
         });
     }
@@ -609,20 +629,24 @@ public class Main extends Application {
                 openMenuItem.setOnAction(new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent event) {
-                        try {
-                            Metadata metadata = ImageMetadataReader.readMetadata(openImage());
-                            SupportCodes.saveProp(metadata);
-
-                        } catch (MalformedURLException e) {
-                            System.out.println(e);
-                        } catch (Exception e) {
-                            Alert alert = new Alert(Alert.AlertType.ERROR);
-                            alert.setTitle("Warning Dialog");
-                            alert.setHeaderText("Look, There was an Error");
-                            alert.setContentText("Please Try Again!");
-                            alert.showAndWait();
-
-                        }
+                        openImage();
+                        // File a = Zoom.image1;
+//                        try {
+//
+//                            Metadata metadata = ImageMetadataReader.readMetadata(openImage());
+//
+//                            SupportCodes.saveProp(metadata);
+//
+//                        } catch (MalformedURLException e) {
+//                            System.out.println(e);
+//                        } catch (Exception e) {
+//                            Alert alert = new Alert(Alert.AlertType.ERROR);
+//                            alert.setTitle("Warning Dialog");
+//                            alert.setHeaderText("Look, There was an Error");
+//                            alert.setContentText("Please Try Again!");
+//                            alert.showAndWait();
+//
+//                        }
 
                     }
 
@@ -660,6 +684,7 @@ public class Main extends Application {
                 @Override
                 public boolean accept(File pathname) {
                     String fileName = pathname.getName().toLowerCase();
+
                     return (fileName.endsWith(".jpg") || fileName.endsWith(".png") || fileName.endsWith("jpeg")) && pathname.isFile();
                 }
             });
@@ -678,6 +703,8 @@ public class Main extends Application {
                 imagesCheck = new int[files.length];
 
                 file = new File(dir, "Detected" + Long.toString(System.currentTimeMillis()));
+
+
                 file.mkdirs();
                 //root.setCenter(new Label("Detecting Wounds"));
 

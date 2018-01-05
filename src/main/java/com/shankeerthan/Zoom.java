@@ -1,5 +1,7 @@
 package com.shankeerthan;
 
+import com.drew.imaging.ImageMetadataReader;
+import com.drew.metadata.Metadata;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
@@ -27,6 +29,7 @@ public class Zoom {
 
     public static void saveImage(Image image) {
         image1 = image;
+
     }
 
     public static void startZoom() {
