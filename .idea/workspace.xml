@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c21fe9ab-67ce-41a6-b751-fc73b951ff88" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,34 +17,46 @@
   <component name="ChangesViewManager" flattened_view="false" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="578" column="45" lean-forward="false" selection-start-line="578" selection-start-column="45" selection-end-line="578" selection-end-column="45" />
+            <state relative-caret-position="376">
+              <caret line="579" column="45" lean-forward="false" selection-start-line="579" selection-start-column="45" selection-end-line="579" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#start#0;class#Main#0" expanded="false" />
-                <element signature="e#3790#3791#0" expanded="true" />
-                <element signature="e#3843#3844#0" expanded="true" />
+                <element signature="e#3791#3792#0" expanded="true" />
+                <element signature="e#3844#3845#0" expanded="true" />
                 <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
                 <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-                <element signature="e#11703#11704#0" expanded="true" />
-                <element signature="e#11778#11779#0" expanded="true" />
-                <element signature="e#12212#12213#0" expanded="true" />
-                <element signature="e#12255#12256#0" expanded="true" />
+                <element signature="e#11704#11705#0" expanded="true" />
+                <element signature="e#11779#11780#0" expanded="true" />
+                <element signature="e#12213#12214#0" expanded="true" />
+                <element signature="e#12256#12257#0" expanded="true" />
                 <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
                 <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
                 <element signature="e#28529#28530#0" expanded="true" />
                 <element signature="e#28620#28621#0" expanded="true" />
-                <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-                <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-                <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-                <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-                <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-                <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-                <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-                <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+                <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+                <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+                <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+                <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+                <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+                <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+                <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+                <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,10 +149,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ZoomingEffect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/SetTemperatureRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/SetTem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" />
       </list>
     </option>
   </component>
@@ -478,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515175376304</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="File Properties added">
+      <created>1515178607011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515178607011</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -581,7 +599,8 @@
     <MESSAGE value="update Temp" />
     <MESSAGE value="Shortcut finished" />
     <MESSAGE value="Shortcut Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortcut Completed" />
+    <MESSAGE value="File Properties added" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Properties added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -590,7 +609,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java</url>
-          <line>664</line>
+          <line>665</line>
           <properties class="com.shankeerthan.Main" method="imageHandle">
             <option name="EMULATED" value="true" />
           </properties>
@@ -617,26 +636,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -678,26 +697,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -771,26 +790,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -849,26 +868,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -912,26 +931,26 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1110,16 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1138,31 +1147,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="578" column="45" lean-forward="false" selection-start-line="578" selection-start-column="45" selection-end-line="578" selection-end-column="45" />
+        <state relative-caret-position="376">
+          <caret line="579" column="45" lean-forward="false" selection-start-line="579" selection-start-column="45" selection-end-line="579" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11703#11704#0" expanded="true" />
-            <element signature="e#11778#11779#0" expanded="true" />
-            <element signature="e#12212#12213#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11779#11780#0" expanded="true" />
+            <element signature="e#12213#12214#0" expanded="true" />
+            <element signature="e#12256#12257#0" expanded="true" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
             <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
             <element signature="e#28529#28530#0" expanded="true" />
             <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178498917" expanded="false" signature="14622:15583" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="15654:16312" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="16362:16373" ph=" { " />
-            <marker date="1515178498917" expanded="false" signature="16425:16431" ph=" }" />
-            <marker date="1515178498917" expanded="false" signature="17086:21317" ph="//..." />
-            <marker date="1515178498917" expanded="false" signature="21385:21830" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="21896:22326" ph="{...}" />
-            <marker date="1515178498917" expanded="false" signature="22392:22819" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
+            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
+            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
+            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
+            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
