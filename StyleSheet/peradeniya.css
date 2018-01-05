@@ -1,0 +1,52 @@
+
+.context-menu {
+  -fx-background-color: #004400;
+  -fx-text-fill: white;
+}
+
+.scene{
+    -fx-background-color: #2E8B57;
+
+}
+.imagecanvas{
+    -fx-background-color: #2E8B57;
+
+}
+.button{
+    -fx-background-color: transparent;
+    -fx-border-radius: 5;
+}
+.button:pressed{
+    -fx-background-color: transparent;
+}
+
+.button:hover{
+    -fx-background-color: transparent;
+}
+
+.button:focused{
+    -fx-background-color: transparent;
+}
+
+.vbox,hbox{
+     -fx-background-color: #444444;
+}
+.combobox{
+    -fx-background-color: #333333;
+    -fx-text-fill:rgba(255,255,255,1);
+}
+.combobox-popup .list-view .list-cell:hover {
+    -fx-text-fill: white;
+}
+.combobox .cell:selected {
+    -fx-text-fill: white;
+}
+.combobox:focused{
+    -fx-background-color: rgba(205,205,205,0.7);
+}
+.combobox:hover{
+    -fx-background-color: rgba(235,235,235,0.7);
+}
+.label{
+     -fx-text-fill: white;
+}
