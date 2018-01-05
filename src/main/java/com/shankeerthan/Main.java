@@ -259,6 +259,7 @@ public class Main extends Application {
         temperatureRangeButton.setTooltip(new Tooltip("Set Low and High Temperature"));
 //        Image temperatureRangeIcon = new Image("file:" + "Icons/tem_range.png");
 //       temperatureRangeButton.setGraphic(new ImageView(temperatureRangeIcon));
+        SetTem.takevar(stage, highPointLabel, lowPointLabel);
 
 
         //Compare with visual image
@@ -406,6 +407,15 @@ public class Main extends Application {
         Interest range          :28   -32 degree celcious
          */
 
+        button.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+
+                SetTem.openTempWin();
+
+            }
+        });
+
 //        button.setOnMouseClicked(new EventHandler<MouseEvent>() {
 //            @Override
 //            public void handle(MouseEvent event) {
@@ -493,7 +503,7 @@ public class Main extends Application {
 //
 //            }
 //        });
-        SetTem.openTempWin(button, stage, high, low);
+
     }
 
     private void handleComboBox(ComboBox<String> comboBox) {

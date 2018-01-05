@@ -23,11 +23,13 @@ public class RightClickMenu {
         ContextMenu contextMenu = new ContextMenu();
 
         MenuItem temp = new MenuItem("Set Temperature");
+        temp.setOnAction(event -> SetTem.openTempWin());
+
 
 
         MenuItem imgFolder = new MenuItem("Open image folder");
         imgFolder.setOnAction(event -> {
-            //Main.callImag();
+            Main.callImag();
         });
 
         MenuItem zoom = new MenuItem("Zoom and pan");
@@ -40,13 +42,13 @@ public class RightClickMenu {
 
         SeparatorMenuItem separatorMenuItem = new SeparatorMenuItem();
 
-        createMenu(temp, "Ctrl+t");
-        createMenu(imgFolder, "Ctrl+i");
+        createMenu(temp, "F2");
+        createMenu(imgFolder, "i");
         createMenu(zoom, "z");
         createMenu(theme, "t");
-        createMenu(aboutUs, "Ctrl+u");
+        createMenu(aboutUs, "F5");
 
-        temp.setOnAction(event -> System.out.println("ttt"));
+
 
         // Set accelerator to menuItem.
         //menuItem.setAccelerator(KeyCombination.keyCombination("Ctrl+O"));
@@ -86,16 +88,27 @@ public class RightClickMenu {
         paneS = pane;
     }
 
+    //    createMenu(temp, "F2");**
+//    createMenu(imgFolder, "i");**
+//    createMenu(zoom, "z");**
+//    createMenu(theme, "t");**
+//    createMenu(aboutUs, "F5");
     public static void keyEvents() {
         sceneS.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.T) {
                 Theme.themeMenu(paneS);
+            } else if (event.getCode() == KeyCode.Z) {
+                Zoom.startZoom();
+            } else if (event.getCode() == KeyCode.F2) {
+                SetTem.openTempWin();
+            } else if (event.getCode() == KeyCode.I) {
+
+            } else if (event.getCode() == KeyCode.F5) {
+               
             }
         });
 
     }
-
-
 
 
 }
