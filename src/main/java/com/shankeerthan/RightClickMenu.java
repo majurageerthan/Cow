@@ -39,6 +39,7 @@ public class RightClickMenu {
         theme.setOnAction(event -> Theme.themeMenu(paneS));
 
         MenuItem aboutUs = new MenuItem("About us");
+        aboutUs.setOnAction(event -> WebSite.open());
 
         SeparatorMenuItem separatorMenuItem = new SeparatorMenuItem();
 
@@ -104,7 +105,8 @@ public class RightClickMenu {
             } else if (event.getCode() == KeyCode.I) {
 
             } else if (event.getCode() == KeyCode.F5) {
-               
+                WebSite.open();
+
             }
         });
 

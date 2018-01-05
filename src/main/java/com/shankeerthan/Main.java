@@ -121,7 +121,7 @@ public class Main extends Application {
         //Menu button
         Button smallMenuButton = new Button();
         handleSmallMenuButton(smallMenuButton, container, pane);
-        Image menuIcon = new Image("file:" + "Icons/menu.png");
+        Image menuIcon = new Image("file:" + "NewIcons/menu.png");
         //   ImageView menuIconView = new ImageView(menuIcon);
         smallMenuButton.setGraphic(new ImageView(menuIcon));
 
@@ -134,7 +134,7 @@ public class Main extends Application {
         //Zoom Selecton Button
         Button zoomSelectionButton = new Button();
         handleZoomSelectionButton(zoomSelectionButton, container);
-        Image zoomSelectionIcon = new Image("file:" + "Icons/menu.png");
+        Image zoomSelectionIcon = new Image("file:" + "NewIcons/menu.png");
         zoomSelectionButton.setGraphic(new ImageView(zoomSelectionIcon));
 
         //Color pallete Drop down
@@ -155,36 +155,39 @@ public class Main extends Application {
 
         //Rotate left button
 //        Button rotateLeftButton = new Button();
-//        Image rotateLeftIcon = new Image("file:" + "Icons/rotate_left.png");
+//        Image rotateLeftIcon = new Image("file:" + "NewIcons/rotate_left.png");
 //        rotateLeftButton.setGraphic(new ImageView(rotateLeftIcon));
 
         //Rotate right button
 //        Button rotateRightButton = new Button();
-//        Image rotateRightIcon = new Image("file:" + "Icons/rotate_right.png");
+//        Image rotateRightIcon = new Image("file:" + "NewIcons/rotate_right.png");
 //        rotateRightButton.setGraphic(new ImageView(rotateRightIcon));
 
         //Crop button
 //        Button cropButton = new Button();
-//        Image cropImageIcon = new Image("file:" + "Icons/crop.png");
+//        Image cropImageIcon = new Image("file:" + "NewIcons/crop.png");
 //        cropButton.setGraphic(new ImageView(cropImageIcon));
 
         //ShowHide side bar  Button
         Button showSidebarButton = new Button();
         handleShowBarButton(showSidebarButton, vBox);
-        Image showSidebarIcon = new Image("file:" + "Icons/show_sidebar.png");
+        Image showSidebarIcon = new Image("file:" + "NewIcons/show_sidebar.png");
         showSidebarButton.setGraphic(new ImageView(showSidebarIcon));
 
 
         //Hide side bar button
         Button hideSidebarButton = new Button();
         handleHideBarButton(hideSidebarButton, vBox);
-        Image hideSidebarImageIcon = new Image("file:" + "Icons/hide_sidebar.png");
+        Image hideSidebarImageIcon = new Image("file:" + "NewIcons/hide_sidebar.png");
         hideSidebarButton.setGraphic(new ImageView(hideSidebarImageIcon));
 
         //About us button
         Button aboutUsButton = new Button();
-        Image aboutUsIcon = new Image("file:" + "Icons/about_us.png");
+        Image aboutUsIcon = new Image("file:" + "NewIcons/about_us.png");
         aboutUsButton.setGraphic(new ImageView(aboutUsIcon));
+        aboutUsButton.setOnMouseClicked(event -> {
+            WebSite.open();
+        });
 
         container.setSpacing(Values.TOP_BOX_SPACING);
         container.getChildren().add(smallMenuButton);
@@ -228,7 +231,7 @@ public class Main extends Application {
         //Temperature cursor
 //        Button temperatureCursorButton = new Button();
 //        temperatureCursorButton.setTooltip(new Tooltip("Temperature Cursor"));
-//        Image temperatureCursorIcon = new Image("file:" + "Icons/cursor.png");
+//        Image temperatureCursorIcon = new Image("file:" + "NewIcons/cursor.png");
 //        temperatureCursorButton.setGraphic(new ImageView(temperatureCursorIcon));
 
         Label temperatureUnitLabel = new Label("C");//------------------------Changed
@@ -257,7 +260,7 @@ public class Main extends Application {
         Button temperatureRangeButton = new Button();
         handleTemperatureRange(temperatureRangeButton, highPointLabel, lowPointLabel);
         temperatureRangeButton.setTooltip(new Tooltip("Set Low and High Temperature"));
-//        Image temperatureRangeIcon = new Image("file:" + "Icons/tem_range.png");
+//        Image temperatureRangeIcon = new Image("file:" + "NewIcons/tem_range.png");
 //       temperatureRangeButton.setGraphic(new ImageView(temperatureRangeIcon));
         SetTem.takevar(stage, highPointLabel, lowPointLabel);
 
@@ -265,13 +268,13 @@ public class Main extends Application {
         //Compare with visual image
         Button comapareButton = new Button();
         comapareButton.setTooltip(new Tooltip("Compare with visual Image"));
-//        Image compareIcon = new Image("file:" + "Icons/compare.png");
+//        Image compareIcon = new Image("file:" + "NewIcons/compare.png");
 //        comapareButton.setGraphic(new ImageView(compareIcon));
 
         //Print Image
 //        Button printImageButton = new Button();
 //        printImageButton.setTooltip(new Tooltip("Print Image"));
-        // Image printImageIcon = new Image("file:" + "Icons/print.png");
+        // Image printImageIcon = new Image("file:" + "NewIcons/print.png");
         //printImageButton.setGraphic(new ImageView(printImageIcon));
 
         //Save Image
@@ -283,7 +286,7 @@ public class Main extends Application {
                 saveImage(singleImageFile, singleImageName);
             }
         });
-//        Image saveImageIcon = new Image("file:" + "Icons/sava.png");
+//        Image saveImageIcon = new Image("file:" + "NewIcons/sava.png");
 //        saveImageButton.setGraphic(new ImageView(saveImageIcon));
 
         //Open Image
@@ -295,7 +298,7 @@ public class Main extends Application {
                 openImage();
             }
         });
-//        Image openImageIcon = new Image("file:" + "Icons/open_image.png");
+//        Image openImageIcon = new Image("file:" + "NewIcons/open_image.png");
 //        openImageButton.setGraphic(new ImageView(openImageIcon));
 
         //Open Folder
@@ -303,14 +306,14 @@ public class Main extends Application {
         Button openFolderbutton = new Button();
         handleImageFolder(openFolderbutton);
         openFolderbutton.setTooltip(new Tooltip("Open Folder of Images"));
-//        Image openFolderIcon = new Image("file:" + "Icons/open_image_folder.png");
+//        Image openFolderIcon = new Image("file:" + "NewIcons/open_image_folder.png");
 //        openFolderbutton.setGraphic(new ImageView(openFolderIcon));
 
         //Copy Image
         //       Button copyImageButton = new Button();
 //        handleCopyImage(copyImageButton);
         //       copyImageButton.setTooltip(new Tooltip("Copy Image"));
-//        Image copyImageIcon = new Image("file:" + "Icons/copy.png");
+//        Image copyImageIcon = new Image("file:" + "NewIcons/copy.png");
 //        copyImageButton.setGraphic(new ImageView(copyImageIcon));
 
         //Properties
