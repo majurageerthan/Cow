@@ -4,7 +4,6 @@ import com.drew.imaging.ImageMetadataReader;
 import com.drew.metadata.Metadata;
 import javafx.animation.TranslateTransition;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -16,31 +15,22 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.*;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
-import javafx.stage.*;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
-import java.net.URI;
-
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.IOException;
 import java.net.MalformedURLException;
-
-
-import static javafx.scene.text.TextAlignment.*;
 
 
 public class Main extends Application {
@@ -586,9 +576,6 @@ public class Main extends Application {
                 }
 
 
-
-
-
             }
         });
     }
@@ -618,6 +605,7 @@ public class Main extends Application {
                 loadMenuItem.setOnAction(new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent event) {
+                        ImageHandle.imageHandle();
 
                     }
                 });
@@ -665,9 +653,6 @@ public class Main extends Application {
         // imageHandle(button);
         button.setOnMouseClicked(event -> ImageHandle.imageHandle());
     }
-
-
-
 
 
     private File openImage() {
