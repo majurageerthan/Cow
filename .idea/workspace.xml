@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21fe9ab-67ce-41a6-b751-fc73b951ff88" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$13.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/DragContext.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/DragContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$1.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$10.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$2.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$3.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$4.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$5.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$6.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$7.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$8.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$9.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/RightClickMenu$1.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/RightClickMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/RightClickMenu.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/RightClickMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$1.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$2.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$3.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SceneGestures.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SetTem$1.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SetTem$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/SetTem.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/SetTem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/shankeerthan/Zoom.class" afterPath="$PROJECT_DIR$/target/classes/com/shankeerthan/Zoom.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" afterPath="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,43 +48,65 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="579" column="45" lean-forward="false" selection-start-line="579" selection-start-column="45" selection-end-line="579" selection-end-column="45" />
+            <state relative-caret-position="208">
+              <caret line="666" column="67" lean-forward="false" selection-start-line="666" selection-start-column="41" selection-end-line="666" selection-end-column="67" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#start#0;class#Main#0" expanded="false" />
-                <element signature="e#3791#3792#0" expanded="true" />
-                <element signature="e#3844#3845#0" expanded="true" />
+                <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
                 <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
                 <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-                <element signature="e#11704#11705#0" expanded="true" />
-                <element signature="e#11779#11780#0" expanded="true" />
-                <element signature="e#12213#12214#0" expanded="true" />
-                <element signature="e#12256#12257#0" expanded="true" />
+                <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+                <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
                 <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-                <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-                <element signature="e#28529#28530#0" expanded="true" />
-                <element signature="e#28620#28621#0" expanded="true" />
-                <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-                <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-                <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-                <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-                <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-                <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-                <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-                <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+                <element signature="e#17181#17248#0" expanded="false" />
+                <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+                <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+                <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+                <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+                <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+                <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+                <element signature="method#reportBox#0;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
+      <file leaf-file-name="RightClickMenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="194">
+              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImagingThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageHandle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#imageHandle#0;class#ImageHandle#0" expanded="false" />
+                <element signature="e#3180#3181#0" expanded="true" />
+                <element signature="e#3271#3272#0" expanded="true" />
+                <element signature="method#saveDetailImg#0;class#ImageHandle#0" expanded="false" />
+                <element signature="method#setImageView#0;class#ImageHandle#0" expanded="false" />
+                <element signature="method#handle#0;class#7701:8585" expanded="false" />
+                <element signature="method#writeReport#0;class#ImageHandle#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -65,8 +115,8 @@
       <file leaf-file-name="Zoom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -75,8 +125,8 @@
       <file leaf-file-name="SupportCodes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/SupportCodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="192">
+              <caret line="47" column="32" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="47" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -93,19 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>void main</find>
-      <find>ContextMenu</find>
-      <find>separatorMenuItem</find>
-      <find>Theme</find>
-      <find>handleSmallMenuButton</find>
-      <find>designTopBar</find>
-      <find>paneSave</find>
-      <find>imageHandle</find>
-      <find>setImageView</find>
-      <find>scaleTemMax</find>
-      <find>high</find>
-      <find>interestRangeMax</find>
       <find>scaleTemMin</find>
       <find>SetTem.</find>
       <find>SetTem.unit</find>
@@ -118,11 +155,24 @@
       <find>about</find>
       <find>unit</find>
       <find>Zoom</find>
-      <find>openImage</find>
       <find>saveProp</find>
       <find>accept</find>
       <find>pathname</find>
       <find>handlePropertiesButton</find>
+      <find>open</find>
+      <find>openImage</find>
+      <find>setImageView</find>
+      <find>files</find>
+      <find>counts</find>
+      <find>images</find>
+      <find>imagesCheck)</find>
+      <find>imagesCheck</find>
+      <find>root</find>
+      <find>imageDisplay</find>
+      <find>imageView</find>
+      <find>dir</find>
+      <find>colorPallete</find>
+      <find>imageHandle</find>
     </findStrings>
     <replaceStrings>
       <replace>NewIcons</replace>
@@ -145,14 +195,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ProgressUpdateable.java" />
         <option value="$PROJECT_DIR$/StyleSheet/box.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/PannableClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ZoomingEffect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/SetTemperatureRange.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/SetTem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java" />
       </list>
     </option>
   </component>
@@ -187,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +301,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -496,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515178607011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="WebSite Updated">
+      <created>1515179269640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515179269640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,62 +658,72 @@
     <MESSAGE value="Shortcut finished" />
     <MESSAGE value="Shortcut Completed" />
     <MESSAGE value="File Properties added" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Properties added" />
+    <MESSAGE value="WebSite Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="WebSite Updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java</url>
           <line>665</line>
-          <properties class="com.shankeerthan.Main" method="imageHandle">
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java</url>
+          <line>741</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java</url>
+          <line>34</line>
+          <properties class="com.shankeerthan.ImageHandle" method="imageHandle">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,28 +763,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,28 +849,21 @@
         <state relative-caret-position="4738">
           <caret line="720" column="48" lean-forward="false" selection-start-line="720" selection-start-column="48" selection-end-line="720" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,28 +920,21 @@
         <state relative-caret-position="18600">
           <caret line="807" column="0" lean-forward="false" selection-start-line="807" selection-start-column="0" selection-end-line="807" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,28 +976,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,16 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Theme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1080,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="46" column="35" lean-forward="false" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ContextMenu.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ZoomingEffect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1105,18 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="107" column="31" lean-forward="true" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2356#2357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/SetTem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -1129,57 +1139,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Theme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/SupportCodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="192">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Zoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImagingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="579" column="45" lean-forward="false" selection-start-line="579" selection-start-column="45" selection-end-line="579" selection-end-column="45" />
+        <state relative-caret-position="208">
+          <caret line="666" column="67" lean-forward="false" selection-start-line="666" selection-start-column="41" selection-end-line="666" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#start#0;class#Main#0" expanded="false" />
-            <element signature="e#3791#3792#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="method#designTopBar#0;class#Main#0" expanded="false" />
             <element signature="method#designBottomBox#0;class#Main#0" expanded="false" />
             <element signature="method#designRightBox#0;class#Main#0" expanded="false" />
-            <element signature="e#11704#11705#0" expanded="true" />
-            <element signature="e#11779#11780#0" expanded="true" />
-            <element signature="e#12213#12214#0" expanded="true" />
-            <element signature="e#12256#12257#0" expanded="true" />
+            <element signature="method#addNodesToRoot#0;class#Main#0" expanded="false" />
+            <element signature="method#handleZoomSelectionButton#0;class#Main#0" expanded="false" />
             <element signature="method#handleTemperatureRange#0;class#Main#0" expanded="false" />
-            <element signature="method#imageHandle#0;class#Main#0" expanded="false" />
-            <element signature="e#28529#28530#0" expanded="true" />
-            <element signature="e#28620#28621#0" expanded="true" />
-            <marker date="1515178595956" expanded="false" signature="14623:15584" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="15655:16313" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="16363:16374" ph=" { " />
-            <marker date="1515178595956" expanded="false" signature="16426:16432" ph=" }" />
-            <marker date="1515178595956" expanded="false" signature="17087:21318" ph="//..." />
-            <marker date="1515178595956" expanded="false" signature="21386:21831" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="21897:22327" ph="{...}" />
-            <marker date="1515178595956" expanded="false" signature="22393:22820" ph="{...}" />
+            <element signature="e#17181#17248#0" expanded="false" />
+            <element signature="method#handleComboBox#0;class#Main#0" expanded="false" />
+            <element signature="method#handleHideBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleShowBarButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handlePropertiesButton#0;class#Main#0" expanded="false" />
+            <element signature="method#handleSmallMenuButton#0;class#Main#0" expanded="false" />
+            <element signature="method#saveImage#0;class#Main#0" expanded="false" />
+            <element signature="method#reportBox#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/WebSite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/ImageHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="184">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#imageHandle#0;class#ImageHandle#0" expanded="false" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
+            <element signature="method#saveDetailImg#0;class#ImageHandle#0" expanded="false" />
+            <element signature="method#setImageView#0;class#ImageHandle#0" expanded="false" />
+            <element signature="method#handle#0;class#7701:8585" expanded="false" />
+            <element signature="method#writeReport#0;class#ImageHandle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shankeerthan/RightClickMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

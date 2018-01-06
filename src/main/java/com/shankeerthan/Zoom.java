@@ -6,6 +6,7 @@ import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
@@ -33,68 +34,79 @@ public class Zoom {
     }
 
     public static void startZoom() {
-        Stage stage = new Stage();
+        if (image1 == null) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Warning Dialog");
+            alert.setHeaderText("Look, Image could not be Opened");
+            alert.setContentText("Please Try Again!");
+            alert.showAndWait();
 
-        Group group = new Group();
+        } else {
 
 
-        // create canvas
-        PannableCanvas canvas = new PannableCanvas();
+            Stage stage = new Stage();
 
-        // we don't want the canvas on the top/left in this example => just
-        // translate it a bit
-        //  canvas.setTranslateX(500);
-        // canvas.setTranslateY(100);
+            Group group = new Group();
 
-        // create sample nodes which can be dragged
-        // NodeGestures nodeGestures = new NodeGestures(canvas);
 
-        ImageView imageView = new ImageView(image1);
-        //imageView.setRotate(90);
-        //imageView.setFitWidth(700);
-        // imageView.setFitHeight(500);
-        //   ScrollBar scrollBar = new ScrollBar();
-        ScrollPane scrollPane = new ScrollPane(canvas);
-        //  sc.setFitToHeight(true);
-        // Set content for ScrollPane
-        scrollPane.setContent(canvas);
+            // create canvas
+            PannableCanvas canvas = new PannableCanvas();
 
-        // Always show vertical scroll bar
-        scrollPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
+            // we don't want the canvas on the top/left in this example => just
+            // translate it a bit
+            //  canvas.setTranslateX(500);
+            // canvas.setTranslateY(100);
 
-        // Horizontal scroll bar is only displayed when needed
-        scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
-        scrollPane.setContent(canvas);
-        // Pannable.
-        // scrollPane.setPannable(true);
-        Button zoomSelectionButton = new Button();
-        Image zoomSelectionIcon = new Image("file:" + "NewIcons/rot.png");
-        zoomSelectionButton.setGraphic(new ImageView(zoomSelectionIcon));
+            // create sample nodes which can be dragged
+            // NodeGestures nodeGestures = new NodeGestures(canvas);
 
-        canvas.getChildren().addAll(imageView, zoomSelectionButton);
-        //canvas.setRotate(90);
+            ImageView imageView = new ImageView(image1);
+            //imageView.setRotate(90);
+            //imageView.setFitWidth(700);
+            // imageView.setFitHeight(500);
+            //   ScrollBar scrollBar = new ScrollBar();
+            ScrollPane scrollPane = new ScrollPane(canvas);
+            //  sc.setFitToHeight(true);
+            // Set content for ScrollPane
+            scrollPane.setContent(canvas);
 
-        group.getChildren().addAll(canvas);
+            // Always show vertical scroll bar
+            scrollPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
 
-        // create scene which can be dragged and zoomed
-        Scene scene = new Scene(scrollPane);
+            // Horizontal scroll bar is only displayed when needed
+            scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.AS_NEEDED);
+            scrollPane.setContent(canvas);
+            // Pannable.
+            // scrollPane.setPannable(true);
+            Button zoomSelectionButton = new Button();
+            Image zoomSelectionIcon = new Image("file:" + "NewIcons/rot.png");
+            zoomSelectionButton.setGraphic(new ImageView(zoomSelectionIcon));
 
-        SceneGestures sceneGestures = new SceneGestures(canvas);
-        scene.addEventFilter(MouseEvent.MOUSE_PRESSED, sceneGestures.getOnMousePressedEventHandler());
-        scene.addEventFilter(MouseEvent.MOUSE_DRAGGED, sceneGestures.getOnMouseDraggedEventHandler());
-        scene.addEventFilter(ScrollEvent.ANY, sceneGestures.getOnScrollEventHandler());
+            canvas.getChildren().addAll(imageView, zoomSelectionButton);
+            //canvas.setRotate(90);
 
-        stage.setScene(scene);
-        stage.show();
+            group.getChildren().addAll(canvas);
 
-        canvas.addGrid();
-        zoomSelectionButton.setOnMouseClicked(event -> {
-            if (angel == 360)
-                angel = 0;
-            canvas.setRotate(angel);
-            angel += 90;
-        });
+            // create scene which can be dragged and zoomed
+            Scene scene = new Scene(scrollPane);
 
+            SceneGestures sceneGestures = new SceneGestures(canvas);
+            scene.addEventFilter(MouseEvent.MOUSE_PRESSED, sceneGestures.getOnMousePressedEventHandler());
+            scene.addEventFilter(MouseEvent.MOUSE_DRAGGED, sceneGestures.getOnMouseDraggedEventHandler());
+            scene.addEventFilter(ScrollEvent.ANY, sceneGestures.getOnScrollEventHandler());
+
+            stage.setScene(scene);
+            stage.show();
+
+            canvas.addGrid();
+            zoomSelectionButton.setOnMouseClicked(event -> {
+                if (angel == 360)
+                    angel = 0;
+                canvas.setRotate(angel);
+                angel += 90;
+            });
+
+        }
     }
 
 

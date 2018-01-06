@@ -59,7 +59,7 @@ public class ImagingThread extends Thread {
                 ColorSeparator colorSeparator = new ColorSeparator();
 
                 int count = colorSeparator.regionOfInterestDetector(image, temperatureScaler.getMidColor(), temperatureScaler.getRadius());
-                Main.counts[filesCount] = count;
+                ImageHandle.counts[filesCount] = count;
                 finalImage = colorSeparator.edgeMarker(image, Color.RED, (int) image.getWidth(), (int) image.getHeight());
                 synchronized (this) {
                     canvas.getGraphicsContext2D().clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
@@ -77,8 +77,8 @@ public class ImagingThread extends Thread {
 
                 ImageIO.write(bImage, "png", outputFile);
 
-                Main.imagesCheck[filesCount] = 1;
-                Main.images[filesCount] = finalImage;
+                ImageHandle.imagesCheck[filesCount] = 1;
+                ImageHandle.images[filesCount] = finalImage;
 
 
             } catch (MalformedURLException e) {

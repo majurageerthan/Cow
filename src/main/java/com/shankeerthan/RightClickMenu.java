@@ -29,7 +29,7 @@ public class RightClickMenu {
 
         MenuItem imgFolder = new MenuItem("Open image folder");
         imgFolder.setOnAction(event -> {
-            Main.callImag();
+            ImageHandle.imageHandle();
         });
 
         MenuItem zoom = new MenuItem("Zoom and pan");
@@ -103,6 +103,7 @@ public class RightClickMenu {
             } else if (event.getCode() == KeyCode.F2) {
                 SetTem.openTempWin();
             } else if (event.getCode() == KeyCode.I) {
+                ImageHandle.imageHandle();
 
             } else if (event.getCode() == KeyCode.F5) {
                 WebSite.open();
